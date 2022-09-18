@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey ;
+    font-family: medium;
+}
+
+.aucentre {
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+h1{
+    color: blue;
+}
+
+body p{
+    color: black;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color: red;
+}
+
+header.page-header {
+    position: relative;
+    background-color: #2E2C2E;
+    display: flex;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+.monlogo img{
+    margin-left: 50px;
+}
+.monheader {
+    display: flex;
+    gap: 75px;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.monheader div {
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.hover2:hover{
+    background-color: #524E52;
+    box-shadow: 15px 10px 10px black;
+}
+
+.hover3:hover{
+    background-color: #524E52;
+    box-shadow: 15px 10px 10px black;
+}
+
+
+.hover2 a{
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+}
+.hover3 a{
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+}
+.container:hover p{
+    color: white;
+}
+.card-blue{
+    margin-left: 20px;
+    background-color: #2E2C2E;
+}
+.container:hover a{
+    color: white;
+}
+.hover3 {
+    margin-left: 100px;
+}
+
+.hover5 {
+    margin-left: 140px;
+    border-left: solid 2px gray;
+}
+
+.hover5:hover {
+    box-shadow: 15px;
+    background-color: #524E52;
+    box-shadow: 15px 10px 10px black;
+}
+
+.monlogo{
+    margin-left: 20px;
+}
+
+.hover1 {
+    border-right: solid 2px black;
+}
+
+.card-blue{
+    border: 1px gray;
+    margin-right: 40px;
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.card-blue:hover{
+    box-shadow: 30px 25px 25px black;  
+    background-color: #2E2C2E;
+    color: #fff;
+
+}
+
+.bloc2{
+    margin-left: 50px;
+}
+
+.bloc2 p:hover{
+    color: white;
+}
+
+footer {
+    display: flex;
+    padding: 5px;
+    background-color: #2E2C2E;
+    color: #fff;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+}
+
+footer h3{
+    margin-left: 50px;
+}
+
+footer p {
+    color: white;
+
+}
+
+footer div{
+    display: flex;
+    font-size: 25px;
+    background-color: #2E2C2E;
+    align-items: center;
+    gap: 30px;
+}
+
+.bloc2 a{
+    color: black;
+}
+
+.container2:hover p{
+    color: white;
+}
+.card-blue2{
+    margin-left: 20px;
+    background-color: #2E2C2E;
+}
+.container2:hover a{
+    color: white;
+}
+.card-blue2{
+    border: 1px gray;
+    margin-right: 40px;
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.card-blue2:hover{
+    box-shadow: 30px 25px 25px black;  
+    background-color: #2E2C2E;
+    color: #fff;
+
+}
